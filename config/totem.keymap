@@ -89,10 +89,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-         &kp Q  &kp W  &kp E          &kp R          &kp T    &kp Y     &kp U        &kp I         &kp O    &kp P
-         &kp A  &kp S  &hml LCTRL D   &hml LGUI F    &kp G    &kp H     &hmr RGUI J  &hmr RCTRL K  &kp L    &kp SQT
-&to COL  &kp Z  &kp X  &kp C          &kp V          &kp B    &kp N     &kp M        &kp COMMA     &kp DOT  &kp FSLH  &to NAV
-                      &none  &hml LALT TAB  &lt SYM SPACE    &lt NAV RET   &kp BSPC     &sk_shft              >;
+         &kp Q  &kp W  &kp E          &kp R          &kp T    &kp Y         &kp U        &kp I         &kp O    &kp P
+         &kp A  &kp S  &hml LCTRL D   &hml LGUI F    &kp G    &kp H         &hmr RGUI J  &hmr RCTRL K  &kp L    &kp SQT
+&to NUE  &kp Z  &kp X  &kp C          &kp V          &kp B    &kp N         &kp M        &kp COMMA     &kp DOT  &kp FSLH  &to NAV
+                       &hml LALT TAB  &lt SYM SPACE  &none    &sk_shft      &lt NAV RET  &kp BSPC            >;
         };
 
         sym_layer {
@@ -125,13 +125,13 @@
             >;
         };
 
-        colemak_dh_layer {
-            label = "COL";
+        hands_down_nue {
+            label = "NUE";
             bindings = <
-          &kp Q  &kp W  &kp F          &kp P          &kp B    &kp J     &kp L         &kp U         &kp Y    &kp SINGLE_QUOTE
-          &kp A  &kp R  &hml LCTRL S   &hml LGUI T   &kp G    &kp M     &hmr RGUI N  &hmr RCTRL E  &kp I    &kp O
-&to BASE  &kp Z  &kp X  &kp C          &kp D          &kp V    &kp K     &kp H         &kp COMMA     &kp DOT  &kp FSLH          &to NAV
-                     &hml LALT TAB  &lt SYM SPACE  &none    &sk_shft  &lt NAV RET   &kp BSPC
+         &kp W  &kp F  &kp M          &kp P          &kp V           &kp .         &kp Q        &kp SQT       &kp ,    &kp Z
+         &kp R  &kp S  &hml LCTRL N   &hml LGUI T    &kp B           &kp A         &hmr RGUI E  &hmr RCTRL I  &kp H    &kp J
+&to BASE &kp X  &kp C  &kp L          &kp D          &kp G           &kp U         &kp O        &kp Y         &kp K    &kp .  &to NAV
+                       &hml LALT TAB  &lt SYM SPACE  &none           &sk_shft      &lt NAV RET  &kp BSPC
             >;
         };
     };
