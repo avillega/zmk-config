@@ -92,7 +92,17 @@
          &kp Q  &kp W  &kp E          &kp R          &kp T    &kp Y         &kp U        &kp I         &kp O    &kp P
          &kp A  &kp S  &hml LCTRL D   &hml LGUI F    &kp G    &kp H         &hmr RGUI J  &hmr RCTRL K  &kp L    &kp SQT
 &to NUE  &kp Z  &kp X  &kp C          &kp V          &kp B    &kp N         &kp M        &kp COMMA     &kp DOT  &kp FSLH  &to NAV
-                       &hml LALT TAB  &lt SYM SPACE  &none    &sk_shft      &lt NAV RET  &kp BSPC            >;
+                       &hml LALT TAB  &lt SYM SPACE  &none    &none         &lt NAV RET  &sk_shft            >;
+        };
+
+        hands_down_nue {
+            label = "NUE";
+            bindings = <
+         &kp W  &kp F  &kp M          &kp P          &kp V           &kp J         &kp DOT      &kp Q        &kp SQT  &kp Z
+         &kp R  &kp S  &hml LCTRL N   &hml LGUI T    &kp B           &kp COMMA     &hmr RGUI A  &hmr RCTRL E &kp I    &kp H
+&to BASE &kp X  &kp C  &kp L          &kp D          &kp G           &kp UNDER     &kp U        &kp O        &kp Y    &kp K  &to NAV
+                       &hml LALT TAB  &lt SYM SPACE  &none           &sk_shft      &lt NAV RET  &kp BSPC
+            >;
         };
 
         sym_layer {
@@ -125,14 +135,5 @@
             >;
         };
 
-        hands_down_nue {
-            label = "NUE";
-            bindings = <
-         &kp W  &kp F  &kp M          &kp P          &kp V           &kp J         &kp DOT      &kp Q        &kp SQT  &kp Z
-         &kp R  &kp S  &hml LCTRL N   &hml LGUI T    &kp B           &kp COMMA     &hmr RGUI A  &hmr RCTRL E &kp I    &kp H
-&to BASE &kp X  &kp C  &kp L          &kp D          &kp G           &kp UNDER     &kp U        &kp O        &kp Y    &kp K  &to NAV
-                       &hml LALT TAB  &lt SYM SPACE  &none           &sk_shft      &lt NAV RET  &kp BSPC
-            >;
-        };
     };
 };
