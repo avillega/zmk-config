@@ -1,0 +1,9 @@
+.west/
+__pycache__/
+/build/
+/bootloader/
+/modules/
+/tools/
+/zephyr/
+/zmk/
+.DS_STORE

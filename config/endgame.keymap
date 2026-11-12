@@ -1,0 +1,10 @@
+#include "helper_keypos_36keys.h"
+#define THUMBS LH2 LH1 LH0 RH0 RH1 RH2
+#define EXTRA_LEFT
+#define EXTRA_RIGHT
+#define BASE_THUMBS &none &hml LALT TAB &lt SYM SPACE &lt NAV RET &sk_shft &none
+#define NUE_THUMBS &none &hml LALT TAB &lt SYM SPACE &lt NAV RET &kp BSPC &none
+#define SYM_THUMBS &trans &trans &kp LGUI &trans &trans &trans
+#define NAV_THUMBS &none &kp N0 &lt SYM SPACE &trans &trans &trans
+#define TRI_THUMBS &trans &trans &trans &trans &trans &trans
+#include "shared.keymap"
